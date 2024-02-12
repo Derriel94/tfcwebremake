@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+     scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  position: relative;
+  padding: 0;
+  height: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+ 
+}
+p {
+   font-size: clamp(1rem, 2vw + 10rem, 1.5rem);
+}
+.home {
+
+ 
+}
+.titlecontainer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+
+}
+.meetthepastor {
+    width: 100%;
+    height: auto;
+}
+.meetthepastor img {
+    max-width: 60%;
+    height: auto; 
+}
+.layer {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  filter: drop-shadow(3px 8px 2px rgb(0 0 0 / 0.5));
+
+}
+.one {
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+.a {
+   margin-bottom: 0;
+}
+.b {
+  margin-top: -30px;
+}
+.bottom {
+  position: relative; 
+  bottom: 0;
+  left: 0;
+}
+.Menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: 3px 2px 2px 3px black;
+  
+
+}
+.Menu p {
+  transition: .5s;
+  font-weight: bolder;
+  cursor: pointer;
+  color: green;
+  font-size: 1.4rem;
+
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+.Menu p:hover {
+  color: skyblue;
+  scale: 1.1;
+
+}
+.wavetext {
+  color: rgba(144, 15, 15, 1.0);
+}
+.TopWave {
+
+}
