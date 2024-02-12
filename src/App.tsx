@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Layer from './Layer.tsx'
+import Nav from './Nav.tsx'
 
 function App() {
 
@@ -32,21 +32,14 @@ function App() {
                    <path fill="#D5CEBA" fillOpacity="1" d="M0,160L48,181.3C96,203,192,245,288,245.3C384,245,480,203,576,181.3C672,160,768,160,864,186.7C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
                 </svg>;
 
+  
+
   return (
     <div className="home">
       <div className="TopWave">
       {layer1}
       </div>
-      <div className="menu-container">
-         <div className="Menu">
-              <p>Home</p>
-              <p><a href="#welcometag">Welcome</a></p>
-              <p><a href="#abouttag">About</a></p>
-              <p>Lives</p>
-              <p>Give</p>
-              <p>Connect</p>
-          </div>
-      </div>
+      <Nav />
       <div className="titlecontainer">
         <div><h1 className="wavetext title">Transforming Foundation Church</h1></div>
       </div>
@@ -71,7 +64,7 @@ function App() {
       Transforming Foundation Church is a Spirit-filled, Christ-centered and Family focused Church. A non-denominational church birthed out of a Prophetic cultural administration where the core belief is based on the foundational truths taught in the bible. All the teaching and ministry is rooted in and flows out of these biblical doctrines.
       </p>
       <div className="titlecontainer meetthepastor">
-        <h1 className="wavetext">Meet The Pastor</h1>
+        <h1 className="wavetext title">Meet The Pastor</h1>
         <img src="./pastor.png" />
       </div>
       <p className="wavetext">
@@ -89,7 +82,10 @@ function App() {
       <p className="wavetext">  To be a body of believers that become the church, that know their identity, walk in their purpose, possess a passion to be disciples, make disciples and Transform generations one life at a time.</p>
       <p className="wavetext">John 1:12</p>
       <p className="wavetext"> “But as many as received Him, to them gave He power to become the sons of God, even to them that believe on His name:”</p>
-    
+      
+      <div>{layer3a}</div>
+      <div>{layer3b}</div>
+
 
       <div>{layer5}</div>
       <div className="wavetext">
