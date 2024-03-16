@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import './App.css'
 
 import React from 'react'
 
@@ -14,36 +15,40 @@ const Nav = () => {
 		}
 
 	return (
-		<div>
-		<div className="mobilenavbutton">
-			    <img className="icon" onClick={()=>toggleMenu()} src="./menuicon.png" />
-		</div>
-			{displayMobileNav
-			?
-			<div className="mobilenavcontainer">
-	         <button className="mobileMenu">
-	              <p>Home</p>
-	              <p><a href="#welcometag">Welcome</a></p>
-	              <p><a href="#abouttag">About</a></p>
-	              <p>Lives</p>
-	              <p>Give</p>
-	              <p>Connect</p>
-	          </button>
-      		</div>
-			:
-			<div className="menucontainer">
-	         <button className="Menu">
-	              <p>Home</p>
-	              <p><a href="#welcometag">Welcome</a></p>
-	              <p><a href="#abouttag">About</a></p>
-	              <p>Lives</p>
-	              <p>Give</p>
-	              <p>Connect</p>
-	          </button>
-      		</div>
+		<div className="nav">
+			<div className="header">
+				<div className="left-header logo">
+					<img src="./logo2.png" />
+					<div className="wavetext">Transforming Foundation Church</div>
+				</div>
+				<div className="mobilenavbutton">
+					    <img className="icon" onClick={()=>toggleMenu()} src="./menuicon.png" />
+				</div>
+					{displayMobileNav
+					?
+			         <div className="mobileMenu">
+			              <p>Home</p>
+			              <p><a href="#welcometag">Welcome</a></p>
+			              <p><a href="#abouttag">About</a></p>
+			              <p>Lives</p>
+			              <p>Give</p>
+			              <p>Connect</p>
+			          </div>
+					:
+					<div className="menucontainer">
+			         <div className="Menu">
+			              <p>Home</p>
+			              <p><a href="#welcometag">Welcome</a></p>
+			              <p><a href="#abouttag">About</a></p>
+			              <p>Lives</p>
+			              <p>Give</p>
+			              <p>Connect</p>
+			          </div>
+					</div>
 			}
 		
-
+			</div>
+		
 		</div>
 	);
 			

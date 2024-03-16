@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-const layer = () => {
+const Layer = () => {
 
-	return (<div>
-		
-	</div> );
+	return (   <div className="borderimg">
+        <img src="./border.png"/>
+      </div> );
 }
 
 export default Layer;
