@@ -11,6 +11,13 @@ body {
                 radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 
 }
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
  
 p {
    font-size: clamp(1rem, 2vw + 10rem, 1.5rem);
@@ -25,6 +32,18 @@ background-color: white;
 width: 100%;
 border-bottom: maroon solid 2px;
 
+}
+.banner-container {
+  position: relative;
+
+}
+.banner {
+  height: auto;
+  width: 100%;
+}
+.bannertxt {
+  margin-top: 125px;
+  margin-bottom: 125px;
 }
 #borderimg {
   border-image: url("./../public/border.png") 30 round;

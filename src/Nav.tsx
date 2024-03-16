@@ -19,7 +19,7 @@ const Nav = () => {
 			<div className="header">
 				<div className="left-header logo">
 					<img src="./logo2.png" />
-					<div className="wavetext">Transforming Foundation Church</div>
+					<div className="wavetext dancing-script-font">Transforming Foundation Church</div>
 				</div>
 				<div className="mobilenavbutton">
 					    <img className="icon" onClick={()=>toggleMenu()} src="./menuicon.png" />

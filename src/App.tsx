@@ -14,11 +14,14 @@ function App() {
       </div>
       <Nav />
       {/*<Layer />*/}
-      <div className="wavetext title">
-        <h1>Welcome To</h1>
-        <h1>Transforming Foundation Church!</h1>
-        <h2>Join In Person or Online At 10:30 AM Sunday and Tuesdays 7:00 PM</h2>
-        <button className="calltoaction">Watch Live</button>
+      <div className="banner-container wavetext title">
+        <div className="bannertxt">
+          <h1>Welcome To</h1>
+          <h1>Transforming Foundation Church!</h1>
+          <h2>Join In Person or Online At 10:30 AM Sunday and Tuesdays 7:00 PM</h2>
+          <button className="calltoaction">Watch Live</button>
+        </div>
+         <img className="banner" src='./banner.png' />
       </div>
 
       
