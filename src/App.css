@@ -45,9 +45,23 @@ border-bottom: maroon solid 2px;
   margin-top: 125px;
   margin-bottom: 125px;
 }
-#borderimg {
-  border-image: url("./../public/border.png") 30 round;
+.three-section-info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+.three-section-info-container div {
+  width: 33%;
+}
+.three-section-info-container p {
+  font-size: 1rem
+}
+
+
+.bibleverse-section {
+
+}
+
 .header div:first-child {
   word-wrap: wrap;
 
@@ -178,14 +192,20 @@ border-bottom: maroon solid 2px;
   .mobilenavbutton {
     display: flex;
     margin-bottom: 40px;
+    margin-right: 15px;
   }
   .menucontainer {
     display: none;
   }
   .left-header {
     display: flex;
-    width: 275px;
+    justify-content: space-between;
+    width: 250px;
+
   }
+  .three-section-info-container div {
+  width: 100%;
+}
 }
 
 a {
