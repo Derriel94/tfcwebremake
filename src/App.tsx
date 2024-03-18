@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { Home, NavBar, About, Welcome, Give } from './components/componentindex'
+import { Home, NavBar, About, Welcome, Give, Footer } from './components/componentindex'
 import './App.css'
 
 
@@ -16,6 +16,7 @@ function App() {
             <Route path="/welcome" element={<Welcome />} />
             <Route path="/give" element ={<Give />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

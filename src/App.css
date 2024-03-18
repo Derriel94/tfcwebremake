@@ -220,6 +220,7 @@ border-bottom: maroon solid 2px;
       height: 250px;
       width:  250px;
     }
+
 }
 
 a {
@@ -255,12 +256,46 @@ a {
 .borderimg img{
   width: 100%;
   height: 200px;
-
-
 }
 .borderimg {
   width: 100%;
   position: absolute;
   top: 10px;
   left: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(144, 15, 15);
+  height: 250px;
+  border-top: white solid 1px;
+
+  align-items: center;
+  margin-top: 20px;
+}
+.footer div {
+  width: 50%;
+  color: gold;
+}
+.footer div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.footer a {
+  color: gold;
+}
+.footer h2 {
+  text-decoration: underline;
+}
+.vertical-line {
+  border-right: 2px solid rgba(0, 0, 0, .1);
+  position: absolute;
+  height: 230px;
+  margin-top: 10px;
 }
