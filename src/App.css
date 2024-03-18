@@ -45,10 +45,13 @@ border-bottom: maroon solid 2px;
   margin-top: 125px;
   margin-bottom: 125px;
 }
+
+
 .three-section-info-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: white;
 }
 .three-section-info-container div {
   width: 33%;
@@ -56,8 +59,22 @@ border-bottom: maroon solid 2px;
 .three-section-info-container p {
   font-size: 1rem
 }
+.eventsbanner {
+  display: none;
+}
+.eventitems {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-around;
+}
+.eventitem {
+  margin-top: 20px;
+}
 
-
+.eventsimgs {
+  height: 450px;
+  width:  450px;
+}
 .bibleverse-section {
 
 }
@@ -94,25 +111,12 @@ border-bottom: maroon solid 2px;
     max-width: 45%;
     height: auto; 
 }
-.layer {
-  width: 100%;
-  height: auto;
-  z-index: 1;
-  filter: drop-shadow(3px 8px 2px rgb(0 0 0 / 0.5));
-
-}
 .one {
   top: 0px;
   left: 0px;
   position: relative;
 }
 
-.a {
-   margin-bottom: 0;
-}
-.b {
-  margin-top: -30px;
-}
 .bottom {
   position: relative; 
   bottom: 0;
@@ -124,7 +128,7 @@ border-bottom: maroon solid 2px;
   margin-right: auto;
 
 }
-.Menu p {
+.Menu a {
   transition: .5s;
   font-weight: bolder;
   cursor: pointer;
@@ -132,10 +136,10 @@ border-bottom: maroon solid 2px;
   font-size: 1.4rem;
   margin-left: 25px;
 }
-.Menu p:last-child {
+.Menu a:last-child {
   margin-right: 25px;
 }
-.mobileMenu p {
+.mobileMenu pa{
   transition: .5s;
   font-weight: bolder;
   cursor: pointer;
@@ -153,7 +157,7 @@ border-bottom: maroon solid 2px;
   background-color: rgba(255, 255, 255, .6);
   color: gold;
 }
-.mobileMenu p:hover {
+.mobileMenu a:hover {
   transition: .5s;
   font-weight: bolder;
   background-color: rgba(255, 255, 255, .6);
@@ -193,19 +197,29 @@ border-bottom: maroon solid 2px;
     display: flex;
     margin-bottom: 40px;
     margin-right: 15px;
-  }
+  }   
   .menucontainer {
     display: none;
-  }
+      }
   .left-header {
     display: flex;
     justify-content: space-between;
     width: 250px;
 
-  }
+      }
   .three-section-info-container div {
   width: 100%;
-}
+      }
+  .bannertxt h2{
+  margin-bottom: 100px;
+    }
+    .eventsbanner {
+  display: block;
+    }
+    .eventsimgs {
+      height: 250px;
+      width:  250px;
+    }
 }
 
 a {
@@ -224,6 +238,7 @@ a {
 .calltoaction {
   border: 2px solid rgba(144, 15, 15, 1.0);
   color: white;
+  font-size:  1.8rem;
   font-weight: bolder;
   padding: 10px;
   margin: 20px;

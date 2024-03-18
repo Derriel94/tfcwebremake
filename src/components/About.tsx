@@ -5,14 +5,14 @@ const About = () => {
 
 	return (
 		<div className="meetthepastor-section">
-		<div className="main">
-			<h1 className="title">About Us</h1>
-			<div>Transforming Foundation Church is a Spirit-filled, Christ-centered and Family focused Church. A non-denominational church birthed out of a Prophetic cultural administration where the core belief is based on the foundational truths taught in the bible. All the teaching and ministry is rooted in and flows out of these biblical doctrines.
-			</div>
-		</div>
+     <img className="banner" src='./banner.png' />
+		<h1 className="dancing-script-font wavetext">About Us</h1>
+		<p className="wavetext">Transforming Foundation Church is a Spirit-filled, Christ-centered and Family focused Church. A non-denominational church birthed out of a Prophetic cultural administration where the core belief is based on the foundational truths taught in the bible. All the teaching and ministry is rooted in and flows out of these biblical doctrines.
+		</p>
+		
 
         <div className="titlecontainer meetthepastor">
-          <h1 className="wavetext title">Pastor Michelle Mason</h1>
+          <h1 className="wavetext dancing-script-font">Pastor Michelle Mason</h1>
           <img src="./pastor.png" />
         </div>
         <p className="wavetext">
