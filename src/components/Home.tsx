@@ -1,4 +1,3 @@
-import React from 'react'
 import { ThreeSectionInfoContainer, MainBanner, Events } from "./componentindex.tsx"
 
 

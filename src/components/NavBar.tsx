@@ -2,7 +2,6 @@ import {useState} from 'react'
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion'
 
-import React from 'react'
 
 const NavBar = () => {
 	const [displayMobileNav, setDisplayMobileNav] = useState<boolean>(false);
