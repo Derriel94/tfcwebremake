@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion'
 
 import React from 'react'
 
@@ -14,12 +15,29 @@ const NavBar = () => {
 			}
 		}
 
+		const spring = {
+ 		 type: "spring",
+ 		 damping: 0,
+ 		 stiffness: 0,
+		}
+
+
 	return (
 		<div className="nav dancing-script-font">
 			<div className="header">
 				<div className="left-header logo">
-					<Link to="/"><img src="./logo2.png" /></Link>
-					<div className="wavetext dancing-script-font">Transforming Foundation Church</div>
+					<Link to="/"><motion.img 
+					initial={{y: -10}}
+      				animate={{y: 5}}
+      				transition={{spring}}
+					src="./logo2.png" />
+					</Link>
+					<motion.div
+					initial={{opacity: 0}}
+      				animate={{opacity: 1}}
+      				exit={{opacity: 0}}
+      				transition={{delay: .5, duration: 1}}
+					className="wavetext dancing-script-font">Transforming Foundation Church</motion.div>
 				</div>
 				<div className="mobilenavbutton">
 					    <img className="icon" onClick={()=>toggleMenu()} src="./menuicon.png" />

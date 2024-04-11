@@ -133,17 +133,19 @@ border-bottom: maroon solid 2px;
   font-weight: bolder;
   cursor: pointer;
   color: rgba(144, 15, 15, 1.0);
+   color: goldenrod;
   font-size: 1.4rem;
   margin-left: 25px;
 }
 .Menu a:last-child {
   margin-right: 25px;
 }
-.mobileMenu pa{
+.mobileMenu p a{
   transition: .5s;
   font-weight: bolder;
   cursor: pointer;
   color: rgba(144, 15, 15, 1.0);
+   color: goldenrod;
   font-size: 1.4rem;
   margin-left: auto;
   margin-right: auto;
@@ -165,6 +167,8 @@ border-bottom: maroon solid 2px;
 }
 .mobileMenu a, .Menu a {
   color: rgba(144, 15, 15, 1.0);
+   color: goldenrod;
+   font-size: 1.3rem;
 }
 .icon {
   position: fixed;
@@ -182,13 +186,17 @@ border-bottom: maroon solid 2px;
 .mobileMenu {
   border-top: 2px solid darkred;
   margin-top: 10px;
-  background-color: white;
+  background-color: rgba(144, 15, 15, 1.0);
+  color: goldenrod;
+
   position: absolute;
   top: 100px;
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
 
 }
 
