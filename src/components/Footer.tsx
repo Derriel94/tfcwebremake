@@ -7,6 +7,7 @@ const Footer = () => {
 			<h2 className="dancing-script-font">Contact</h2>
 				<h4>tfclive22@gmail.com</h4>
 				<h4>1535 W. Stan Schlueter Loop Bldg. B Killeen TX 76549</h4>
+				<h4>254-247-2890</h4>
 			</div>
 			<div className="vertical-line"></div>
 			<div className="footer-rightside">
