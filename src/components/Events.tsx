@@ -12,11 +12,6 @@ const Events = () => {
 					<p className="wavetext">Every Tuesday @ 6 AM</p>
 				</div>
 				<div className="eventitem">
-					<h1 className="wavetext	dancing-script-font">Girl Talk Event</h1>
-					<img className="eventsimgs" src="./girl.png" />
-					<p className="wavetext">Saturday April 27th 2024 @ 10 AM</p>
-				</div>
-				<div className="eventitem">
 					<h1 className="wavetext	dancing-script-font">Bible Study</h1>
 					<img className="eventsimgs" src="./tfc.jpg" />
 					<p className="wavetext">Every Tuesday @ 7pm</p>
